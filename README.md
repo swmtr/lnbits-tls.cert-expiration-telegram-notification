@@ -26,7 +26,7 @@ sudo pip install pyOpenSSL
 
 Your script will need to communicate with Telegram. To get the library, run this command:
 ```
-pip install python-telegram-bot
+sudo pip install python-telegram-bot
 ```
 
 ## The script
