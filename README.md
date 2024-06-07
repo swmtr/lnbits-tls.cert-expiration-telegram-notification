@@ -1,6 +1,6 @@
 # tls.cert Expiration Notification to Telegram
 
-Sometimes when connecting services such as LNbits to your own local node with LndRestWallet, you forget that the tls.cert you use has an expiry date. When the tls.cert certificate expires your connection to LNbits stops working and you then are left wondering why when paying lightning invoices, your backend will be unreachable. In term sof LNbits, the wallet automatically defaults to the VoidWallet which is of course not functional. You could also see some services on your node having the following issues: Failed to connect with gRPC to remote LND
+Sometimes when connecting services such as [LNbits](https://lnbits.com/) to your own local node with LndRestWallet, you forget that the tls.cert you use has an expiry date. When the tls.cert certificate expires your connection to LNbits stops working and you then are left wondering why your backend is unreachable when paying lightning invoices. In terms of LNbits, the wallet automatically defaults to the VoidWallet which is of course not functional. You could also see some services on your node having the following issues: Failed to connect with gRPC to remote LND until the new certificate is updated
 
 You can check the expiry date of your tls.cert by running this command:
 
